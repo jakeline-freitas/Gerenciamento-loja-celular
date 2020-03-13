@@ -1,0 +1,30 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(img/telaLogin.jpg) no-repeat center;
+    background-size: cover;
+}
+.conteudo {
+    height: 459px;
+    width: 392px;
+    background-image: url(img/caixalogin.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#formulario{
+    background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left:27%;
+    transform: translateY(-50%);
+    
+}
+#btn-login{
+    background-color: blue;
+}
+  

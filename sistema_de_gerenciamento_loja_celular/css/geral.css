@@ -1,0 +1,134 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+  
+  }
+  * {
+    box-sizing:border-box;
+  
+  }
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* .breadcrumb {
+    float: right;
+    background: transparent;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 7px 5px;
+    position: absolute;
+    top: 52px;
+    right: 200px; 
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+} */
+/* .content-header > .breadcrumb > li + li:before {
+  content: '>\00a0';
+} */
+
+.breadcrumb > li + li:before {
+    content: '|\00a0';
+    padding: 0 5px;
+    color: #cccccc;
+  
+} 
+
+.content-header {
+    background: #fbfbfb;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.adicionar{
+    padding: 15px;
+}
+    /* linha do meio*/
+
+.meio{
+        /* top: 5px; */
+        /* background-color: #ececec; */
+        /* height:100%;
+        width: 100%; */
+        padding-top: 40px;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        
+}
+.tabela{
+    padding-top: 10px;
+}
+
+
+ /* coluna do meio*/     
+.conteudo{
+        
+        width: 100%;
+        /* margin-right:0; */
+        padding: 20px;
+        
+        
+}
+@media (max-width: 767px){
+    
+    .meio .conteudo{
+        width: 100%;
+        
+      }
+}
+
+.coluna{
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    /* margin-right: -4px; */
+  
+  }
+  
+  @media (min-width: 767px){
+    .coluna-2{
+        width: 50%;
+    }
+    
+  }
+  
+  @media (min-width: 767px){
+    .coluna-3{
+        width: 33.3333%;
+    }
+  }
+ 
+  
+      .panel-table .panel-footer .col{
+       line-height: 34px;
+       height: 34px;
+      }
+      
+      .panel-table .panel-heading .col h3{
+       line-height: 30px;
+       height: 30px;
+      }
+      
+      .panel-table .panel-body .table-bordered > tbody > tr > td{
+        line-height: 34px;
+      }
+      
+      
+    
